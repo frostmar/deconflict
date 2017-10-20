@@ -1,7 +1,7 @@
 # deconflict
 
 This project contains some sample code that implements some common conflict resolution strategies for Apache CouchDB or Cloudant. A
-documnet conflict arises when two copies of the same document are modified in different ways on disconnected nodes. When the nodes
+document conflict arises when two copies of the same document are modified in different ways on disconnected nodes. When the nodes
 reconnect (by replication or when a partitioned cluster re-forms), the document will enter a conflicted state.
 
 We can see if a document is conflicted by fetching it with '?conflicts=true':
